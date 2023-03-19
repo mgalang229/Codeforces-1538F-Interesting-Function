@@ -42,10 +42,6 @@ public class AuthorSol {
 		out.close();
 	}
 	
-	static int countDigits(int x) {
-		return (int) Math.floor(Math.log10(x));
-	}
-	
 	static final Random rnd = new Random();
 	static void shuffleSort(int[] a) { //change this
 		int n = a.length;
